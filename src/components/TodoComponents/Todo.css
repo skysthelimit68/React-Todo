@@ -1,0 +1,61 @@
+body {
+    font-size:62.5%;
+    font-family: monospace;
+}
+
+.app-wrapper {
+    width:100%;
+    max-width:560px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+.list-wrapper {
+    width:100%;
+    border: 1px solid #999;
+    border-radius:5px;
+    padding:20px;
+    margin-bottom:30px;
+    text-align:center;
+    font-size:1.2rem;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button-wrapper {
+    margin-top:10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.list-wrapper h2 {
+    text-align:center;
+    font-size:1.5rem;
+}
+
+.strike {
+    text-decoration-line:line-through;
+}
+
+button {
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    margin: 0 20px;
+    min-width: 10rem;
+}
+
+input {
+    border-radius: 5px;
+    margin: 10px;
+    font-size:1.2rem;
+    text-align:center;
+    padding:15px 30px;
+}
